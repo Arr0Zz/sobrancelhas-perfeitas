@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrancelhas Perfeitas - Método Único e Simples</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;600;700&family=Cormorant:wght@300;400;600;700&family=Cinzel:wght@400;500;600;700&family=Exo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Exo', sans-serif;
+            background-color: #0C0A0A;
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/D1-bg-of.jpg');
+            background-position: top center;
+            background-repeat: no-repeat;
+            color: #D8D4CA;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        body::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: #202020;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #fbd173;
+            border-radius: 10px;
+            border: 2px solid #202020;
+        }
+
+        ::selection {
+            color: #ffffff;
+            background: #CC1A36;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            padding: 75px 0;
+        }
+
+        .section-mobile {
+            padding: 50px 0;
+        }
+
+        /* Header */
+        .header {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 17%;
+            max-width: 200px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            min-height: 625px;
+            gap: 50px;
+            padding-right: 50px;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 45%;
+            margin-left: auto;
+        }
+
+        .hero-title {
+            font-family: 'Cormorant Unicase', serif;
+            font-size: 1.9em;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #D8D4CA;
+        }
+
+        .hero-title .highlight {
+            color: #fbd173;
+        }
+
+        .hero-subtitle {
+            font-family: 'Exo', sans-serif;
+            font-size: 1em;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            border: 2px solid #fbd173;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Price Section */
+        .price-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .price-old {
+            font-family: 'Exo', sans-serif;
+            font-size: 1em;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .price-main {
+            font-family: 'Cinzel', serif;
+            font-size: 4.7em;
+            font-weight: 600;
+            color: #fbd173;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .price-installment {
+            font-size: 30px;
+        }
+
+        .price-cash {
+            font-family: 'Exo', sans-serif;
+            font-size: 1em;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/BUTTON.svg') no-repeat center;
+            background-size: contain;
+            width: 340px;
+            height: 120px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Target Section */
+        .target-section {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Layer-7.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .target-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+        }
+
+        .target-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .section-title {
+            font-family: 'Cormorant', serif;
+            font-size: 1.9em;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 80px;
+            margin-top: 50px;
+            color: #D8D4CA;
+            padding: 0 20px;
+        }
+
+        .target-cards {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .target-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #fbd173;
+            border-radius: 10px;
+            padding: 50px;
+            flex: 1;
+            max-width: 350px;
+            backdrop-filter: blur(6px);
+        }
+
+        .target-card h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #fbd173;
+            margin-bottom: 15px;
+        }
+
+        .target-card p {
+            color: #D8D4CA;
+        }
+
+        /* Course Content Section */
+        .course-content {
+            text-align: center;
+        }
+
+        .course-image {
+            width: 89%;
+            margin: -173px auto 0;
+            display: block;
+        }
+
+        .course-description {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .course-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        .course-photo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .course-photo img {
+            width: 100%;
+            max-width: 400px;
+            transform: scale(1.4);
+        }
+
+        /* Testimonials */
+        .testimonials-section {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .testimonials-carousel {
+            flex: 1;
+        }
+
+        .testimonials-title {
+            flex: 1;
+        }
+
+        .testimonials-title h2 {
+            font-family: 'Cormorant', serif;
+            font-size: 3em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #D8D4CA;
+        }
+
+        .testimonials-title .highlight {
+            color: #fbd173;
+        }
+
+        .testimonial-images {
+            display: flex;
+            gap: 0;
+        }
+
+        .testimonial-images img {
+            width: 33.33%;
+            height: auto;
+        }
+
+        /* Learning Content */
+        .learning-section {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bg-bg-bg.jpg');
+            background-position: top center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .learning-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .learning-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .learning-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .learning-item {
+            background: rgba(255, 246, 226, 0.13);
+            border-left: 5px solid #fbd173;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .learning-item img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .learning-item span {
+            color: #D8D4CA;
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+        }
+
+        /* Works Gallery */
+        .works-section {
+            text-align: center;
+        }
+
+        .works-carousel {
+            margin-top: 50px;
+        }
+
+        .works-carousel img {
+            width: 100%;
+            border-radius: 20px;
+            margin: 0 10px;
+        }
+
+        /* Bonus Section */
+        .bonus-section {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/BG-546.jpg');
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+        }
+
+        .bonus-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.37);
+        }
+
+        .bonus-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .bonus-card {
+            background: linear-gradient(113deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
+            border-radius: 10px;
+            padding: 30px;
+            margin: 50px 0;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            min-height: 235px;
+        }
+
+        .bonus-card.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .bonus-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .bonus-image img {
+            max-width: 200px;
+            transform: rotate(-12deg) scale(1.3);
+        }
+
+        .bonus-content {
+            flex: 1;
+        }
+
+        .bonus-badge {
+            background: #121212;
+            border: 2px solid #fbd173;
+            border-radius: 50px;
+            padding: 10px 30px;
+            color: #FFDA7D;
+            font-family: 'Exo', sans-serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .bonus-title {
+            font-family: 'Cormorant', serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #FFDA7D;
+            margin-bottom: 15px;
+        }
+
+        .bonus-description {
+            color: #D8D4CA;
+            margin-bottom: 10px;
+        }
+
+        .bonus-price {
+            color: #FF0000;
+            text-decoration: line-through;
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+        }
+
+        /* Certificate Section */
+        .certificate-section {
+            background: linear-gradient(90deg, #FFC740, #FFDA7D);
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bgbg-golfd.jpg');
+            background-position: top center;
+            min-height: 317px;
+            display: flex;
+            align-items: center;
+        }
+
+        .certificate-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .certificate-text {
+            flex: 1;
+        }
+
+        .certificate-text h2 {
+            font-family: 'Cormorant', serif;
+            font-size: 2em;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #101010;
+            margin-bottom: 20px;
+        }
+
+        .certificate-text p {
+            color: #1D1D1D;
+        }
+
+        .certificate-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .certificate-image img {
+            transform: scale(2.2);
+        }
+
+        /* About Section */
+        .about-section {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Quem-sou-eu-.jpg');
+            background-position: top center;
+            background-repeat: no-repeat;
+            min-height: 1187px;
+            display: flex;
+            align-items: center;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .about-spacer {
+            flex: 1;
+        }
+
+        .about-text {
+            flex: 1;
+            padding-left: 50px;
+        }
+
+        .about-label {
+            font-family: 'Exo', sans-serif;
+            font-size: 1.3em;
+            font-weight: 500;
+            color: #fbd173;
+            margin-bottom: 10px;
+        }
+
+        .about-name {
+            font-family: 'Cormorant', serif;
+            font-size: 2.6em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #D8D4CA;
+            margin-bottom: 20px;
+        }
+
+        .about-description {
+            color: #D8D4CA;
+            line-height: 1.6;
+        }
+
+        /* Guarantee Section */
+        .guarantee-section {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .guarantee-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .guarantee-content {
+            flex: 1;
+        }
+
+        .guarantee-title {
+            font-family: 'Cormorant', serif;
+            font-size: 2.3em;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #FBD173;
+            margin-bottom: 20px;
+        }
+
+        .guarantee-text {
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+            color: #D8D4CA;
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bg-bg-bg.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.76);
+        }
+
+        .final-cta .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid #fbd173;
+            border-radius: 10px;
+            padding: 50px;
+            max-width: 56%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .cta-header {
+            background-image: url('https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bgbg-golfd.jpg');
+            padding: 50px;
+            border-radius: 9px 9px 0 0;
+            margin: -50px -50px 30px -50px;
+        }
+
+        .cta-header img {
+            width: 48%;
+        }
+
+        .offer-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #fbd173;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .countdown {
+            margin: 20px 0;
+        }
+
+        .final-price {
+            font-family: 'Cinzel', serif;
+            font-size: 4.7em;
+            font-weight: 600;
+            color: #FFC740;
+            line-height: 1.2;
+            margin: 20px 0;
+        }
+
+        .final-description {
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+            color: #D8D4CA;
+            margin: 20px 0;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            text-align: center;
+        }
+
+        .faq-title {
+            font-family: 'Cormorant', serif;
+            font-size: 2.3em;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #FBD173;
+            margin-bottom: 80px;
+            margin-top: 50px;
+        }
+
+        .faq-item {
+            background: linear-gradient(225deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.11));
+            border-bottom: 2px solid #fbd173;
+            padding: 20px;
+            margin-bottom: 10px;
+            max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+        }
+
+        .faq-question {
+            font-family: 'Exo', sans-serif;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #D8D4CA;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+            color: #D8D4CA;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.47);
+            border-top: 1px solid;
+            border-image: linear-gradient(90deg, transparent, #FFCE00, transparent) 1;
+            padding: 75px 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-text {
+            font-family: 'Exo', sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            color: #D8D4CA;
+            margin-bottom: 20px;
+        }
+
+        .footer-disclaimer {
+            font-family: 'Exo', sans-serif;
+            font-size: 0.6em;
+            font-weight: 500;
+            color: #D8D4CA;
+            max-width: 61%;
+            margin: 0 auto;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 13%;
+            right: 7%;
+            background: #2DB300;
+            color: white;
+            border-radius: 50%;
+            width: 46px;
+            height: 46px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 24px;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background: #00DD2A;
+            transform: scale(1.1);
+        }
+
+        /* Divider */
+        .divider {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .divider img {
+            width: 300px;
+            transform: scaleY(-1);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                padding-right: 0;
+            }
+
+            .hero-content {
+                max-width: 100%;
+                margin-left: 0;
+            }
+
+            .hero-title {
+                font-size: 1.5em;
+            }
+
+            .price-main {
+                font-size: 4em;
+            }
+
+            .cta-button {
+                width: 300px;
+                height: 100px;
+            }
+
+            .target-cards {
+                flex-direction: column;
+            }
+
+            .course-description {
+                flex-direction: column;
+            }
+
+            .testimonials-section {
+                flex-direction: column-reverse;
+            }
+
+            .testimonials-title h2 {
+                font-size: 1.6em;
+                text-align: center;
+            }
+
+            .learning-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .bonus-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .bonus-card.reverse {
+                flex-direction: column;
+            }
+
+            .certificate-content {
+                flex-direction: column;
+            }
+
+            .about-section {
+                background-position: -74px -35px;
+                background-size: 764px;
+            }
+
+            .about-content {
+                flex-direction: column;
+            }
+
+            .about-text {
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .guarantee-section {
+                flex-direction: column;
+            }
+
+            .cta-box {
+                max-width: 100%;
+            }
+
+            .final-price {
+                font-size: 4em;
+            }
+
+            .faq-item {
+                max-width: 100%;
+            }
+
+            .whatsapp-btn {
+                right: 23%;
+                width: 33px;
+                height: 33px;
+                font-size: 18px;
+            }
+
+            .divider img {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Logo_.png" alt="Sobrancelhas Perfeitas" class="logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Método <span class="highlight">ÚNICO e SIMPLES</span> que Eu uso pra fazer 
+                    <span class="highlight">Sobrancelhas Impecáveis</span> e com isso ter a 
+                    <span class="highlight">Agenda Lotada.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Você irá aprender as técnicas mais Inovadoras e Eficazes para o Design de Sobrancelhas, 
+                    descobrir como aplicá-las de maneira Simples e Prática.
+                </p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/2QtMzNxi5gs" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Section -->
+    <section class="price-section">
+        <div class="container">
+            <p class="price-old">de R$ 397,00 Por Apenas</p>
+            <h2 class="price-main">
+                <span class="price-installment">10x de</span><br>
+                R$ 11,08
+            </h2>
+            <p class="price-cash">Ou R$ 97,00 à vista</p>
+            <a href="https://go.hotmart.com/W100785462X?ap=e2be" class="cta-button" target="_blank"></a>
+        </div>
+    </section>
+
+    <!-- Target Section -->
+    <section class="target-section section">
+        <div class="container">
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            <h2 class="section-title">Pra quem é o curso?</h2>
+            <div class="target-cards">
+                <div class="target-card">
+                    <h3>Pra Você...</h3>
+                    <p>Que procura o <strong>passo a passo prático e sem enrolação</strong> para ter resultados o mais rápido possível em Design de Sobrancelha.</p>
+                </div>
+                <div class="target-card">
+                    <h3>Pra Você...</h3>
+                    <p>Que quer aprender a fazer Sobrancelhas Impecáveis, e assim ter a agenda Cheia, adquirindo independência financeira.</p>
+                </div>
+                <div class="target-card">
+                    <h3>Pra Você...</h3>
+                    <p>Que quer se destacar em sua cidade, ser referencia, ainda ganhar muito com isso, podendo dar uma vida melhor a sua família.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section class="course-content section">
+        <div class="container">
+            <h2 class="section-title">
+                O Curso Sobrancelhas Perfeitas <span class="highlight">não é simplesmente um curso qualquer!</span>
+            </h2>
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/sobrancelhas.png" alt="Sobrancelhas" class="course-image">
+            <div class="course-description">
+                <div class="course-text">
+                    <p><strong>Se Você quer mudar de vida e se tornar uma especialista em design de sobrancelha...</strong></p>
+                    <p>Meu Curso Design de Sobrancelha é o ponto de partida perfeito para você. Com aulas práticas e teóricas, você aprenderá todas as técnicas essenciais para criar Sobrancelhas Perfeitas, realçando a beleza natural de cada cliente.</p>
+                    <p>Não importa se você está começando do zero, nosso curso é projetado para atender a todos os níveis de habilidade. Com flexibilidade total, você pode estudar no seu próprio ritmo e conciliar os estudos com sua rotina atual.</p>
+                </div>
+                <div class="course-photo">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Foto-d2.png" alt="Professora Jéssica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section">
+        <div class="container">
+            <div class="testimonials-carousel">
+                <!-- Carousel would go here - simplified for this example -->
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/IMG_3101.jpg" alt="Trabalho 1" style="width: 45%; margin: 10px; border-radius: 20px;">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/IMG_3100.jpg" alt="Trabalho 2" style="width: 45%; margin: 10px; border-radius: 20px;">
+            </div>
+            <div class="testimonials-title">
+                <h2>Alunas que estão tendo <span class="highlight">a vida transformada!</span></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Images -->
+    <section class="testimonial-images">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/01.webp" alt="Depoimento 1">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/04.webp" alt="Depoimento 3">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/03.webp" alt="Depoimento 4">
+    </section>
+
+    <!-- Learning Content Section -->
+    <section class="learning-section section">
+        <div class="container">
+            <h2 class="section-title">Veja o que você vai aprender!</h2>
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            <div class="learning-grid">
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Anatomia da Pele</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Anatomia do Pelo</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Tipos de Rosto</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Tipos de Olhos</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Tipos de Pinça</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Conduta do Profissional</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como age a Henna e a Tintura</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Durabilidade da Henna e Tintura</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Treino de Design</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Treino de Aplicação de Henna</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Epilação Egípcia Facial</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como Escolher o Tom Ideal de Henna</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Oxidação de Henna</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design Masculino</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Teste de Alergia</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Ficha de Anamnese</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Aplicação de Tintura Masculina</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Cuidados pós Henna e Tintura</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Biossegurança</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como Encontrar o Ponto Inicial</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como Encontrar o Ponto Alto</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como Encontrar o Ponto Final</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Espessura Ideal de Sobrancelha</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Mapeamento com Linha</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Marcação à Mão Livre</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design em Sobrancelhas Retas</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design Sobrancelhas Falhadas</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design em Sobrancelhas Finas</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design em Adolescente</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Protocolo Henna + Tintura</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Como Cortar Sobrancelhas Onduladas</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Técnica da Epilação com linha</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Design Feminino com Linha e Pinça</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Henna Ombré</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Preparação e Aplicação Henna SourCil</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Preparação e Aplicação Henna Menela</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Preparação e Aplicação La Benig</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Aplicação de Tintura Urbanique</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Tintura Refectocil em Pelos Grisalhos</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Alinhamento Perfeito</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Correção com Lápis</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Treino de Marcação no Papel</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Treino de Henna</span>
+                </div>
+                <div class="learning-item">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Icon_Check22.svg" alt="Check">
+                    <span>Fornecedores</span>
+                </div>
+            </div>
+            <h3 class="section-title" style="margin-top: 50px;">E muito mais...</h3>
+            <a href="https://go.hotmart.com/W100785462X?ap=e2be" class="cta-button" target="_blank"></a>
+        </div>
+    </section>
+
+    <!-- Recovery Investment -->
+    <section style="text-align: center; padding: 50px 0;">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/06/Recupere-o-Valor-investido-fazendo-apenas-1-Procedimento-3-1.png" alt="Recupere o investimento" style="width: 100%; max-width: 800px;">
+    </section>
+
+    <!-- Works Gallery -->
+    <section class="works-section section">
+        <div class="container">
+            <h2 class="section-title">Está pronta para fazer trabalhos incríveis como esses em poucos dias?</h2>
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            <div class="works-carousel">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/trabalhos01-copy-3.jpg" alt="Trabalho 1">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/trabalhos01-copy-4.jpg" alt="Trabalho 2">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/trabalhos01.jpg" alt="Trabalho 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section class="bonus-section section">
+        <div class="container">
+            <h2 class="section-title">Adquira hoje e receba <span class="highlight">05 Bônus Especiais!</span></h2>
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            
+            <!-- Bonus 1 -->
+            <div class="bonus-card">
+                <div class="bonus-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/055.png" alt="Bônus 1">
+                </div>
+                <div class="bonus-content">
+                    <div class="bonus-badge">Bônus 01</div>
+                    <h3 class="bonus-title">Suporte direto com a Professora Online</h3>
+                    <p class="bonus-description">Você terá acesso direto comigo para ter suporte e tirar suas dúvidas.</p>
+                    <p class="bonus-price">Custa R$ 997,00</p>
+                </div>
+            </div>
+
+            <!-- Bonus 2 -->
+            <div class="bonus-card reverse">
+                <div class="bonus-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/02sa.png" alt="Bônus 2">
+                </div>
+                <div class="bonus-content">
+                    <div class="bonus-badge">Bônus 02</div>
+                    <h3 class="bonus-title">Epilação Egípcia</h3>
+                    <p class="bonus-description">Aprenda a fazer de forma profissional a técnica de epilação com a linha.</p>
+                    <p class="bonus-price">Custa R$ 147,00</p>
+                </div>
+            </div>
+
+            <!-- Bonus 3 -->
+            <div class="bonus-card">
+                <div class="bonus-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bonus09.png" alt="Bônus 3">
+                </div>
+                <div class="bonus-content">
+                    <div class="bonus-badge">Bônus 03</div>
+                    <h3 class="bonus-title">Descoloração e Coloração em Ruivas</h3>
+                    <p class="bonus-description">Técnica de como colorir e descolorir perfeitamente.</p>
+                    <p class="bonus-price">Custa R$ 37,00</p>
+                </div>
+            </div>
+
+            <!-- Bonus 4 -->
+            <div class="bonus-card reverse">
+                <div class="bonus-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/bonus654.png" alt="Bônus 4">
+                </div>
+                <div class="bonus-content">
+                    <div class="bonus-badge">Bônus 04</div>
+                    <h3 class="bonus-title">Correção com Lápis Dermatográfico</h3>
+                    <p class="bonus-description">Como corrigir corretamente sobrancelhas com falhas pontuais.</p>
+                    <p class="bonus-price">Custa R$ 27,00</p>
+                </div>
+            </div>
+
+            <!-- Bonus 5 -->
+            <div class="bonus-card">
+                <div class="bonus-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/FRAME-1.png" alt="Bônus 5">
+                </div>
+                <div class="bonus-content">
+                    <div class="bonus-badge">Bônus 05</div>
+                    <h3 class="bonus-title">Como Fazer a Fotografia Perfeita</h3>
+                    <p class="bonus-description">Aprenda a fazer de forma profissional Fotografias Perfeitas para a Divulgação de seus Trabalhos.</p>
+                    <p class="bonus-price">Custa R$ 37,00</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <p style="max-width: 48%; margin: 0 auto; margin-bottom: 20px;">Todas as aulas do curso Sobrancelhas Perfeitas, mais os Bônus que você terá acesso, somam juntos <strong>mais de R$1.136 Reais.</strong></p>
+                <p style="color: #EFC55A; font-size: 2em; font-weight: 400; margin-bottom: 30px;"><strong>Mas fazendo a inscrição hoje, irá pagar somente R$97,00</strong></p>
+                <a href="https://go.hotmart.com/W100785462X?ap=e2be" class="cta-button" target="_blank"></a>
+                <p style="max-width: 48%; margin: 50px auto 0;">Tenha acesso ao pacote completo do Curso, e a mais 5 Bônus Exclusivos por 10x de apenas R$11,08 (ou à vista se preferir).</p>
+                <p style="max-width: 48%; margin: 20px auto 0;">E sabe o que é ainda melhor? Isso é menos de 0,40 centavos por dia, um investimento baixíssimo para transformar sua vida profissional. Eu sei, o valor é ridiculamente barato, porém é uma Oferta por Tempo Limitado.</p>
+                <p style="max-width: 48%; margin: 20px auto 0;">Eu acredito no meu método e sei que ele pode transformar sua vida como já transformou a de mais de 69.154 mil alunas. Então, não deixe essa chance passar, aproveite agora.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section class="certificate-section">
+        <div class="container">
+            <div class="certificate-content">
+                <div class="certificate-text">
+                    <h2>Certificado de Conclusão</h2>
+                    <p>Após concluir o Curso Sobrancelhas Perfeitas, você terá acesso a um lindo certificado de conclusão que você poderá emitir direto da sua área do aluno.</p>
+                </div>
+                <div class="certificate-image">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/cacaca.png" alt="Certificado">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-spacer"></div>
+                <div class="about-text">
+                    <p class="about-label">Quem sou eu?</p>
+                    <h2 class="about-name">Jéssica Soares</h2>
+                    <div class="about-description">
+                        <p>Especialista em Designer de Sobrancelhas, com mais de 10 anos de experiência e atuação no segmento.</p>
+                        <p>Graduada em Contabilidade, proprietária do Studio Jéssica Soares Beauty Academy e Pioneira em Ministração de Curso Online no Brasil desde 2012.</p>
+                        <p>Criei o Método Sobrancelhas Perfeitas, desenvolvido com base na minha vasta experiência na área e nas necessidades do mercado atual. Aulas pensadas e estruturadas para garantir que você aprenda tudo o que precisa saber para ser uma profissional de sucesso no mundo do Design de Sobrancelhas.</p>
+                        <p>E através do meu método, tenho transformado a vida de muitas pessoas, onde já contabilizo mais de 69.154 mil alunas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section section">
+        <div class="container">
+            <div class="guarantee-image">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/7dias.png" alt="7 dias de garantia">
+            </div>
+            <div class="guarantee-content">
+                <h2 class="guarantee-title">Ainda está na dúvida?</h2>
+                <div class="guarantee-text">
+                    <p>Não tem dúvida, o Curso Sobrancelhas Perfeitas simplesmente funciona. A prova disso são as milhares de alunas com resultados incríveis e que tiveram suas vidas transformadas.</p>
+                    <p>Mas se você ainda tem alguma dúvida, vou permitir que você experimente por 7 dias e caso você não goste ou não veja nenhum resultado, basta me enviar um e-mail durante esse período que devolvo todo o valor que você pagou.</p>
+                    <p>O Objetivo é adicionar Valor Real à sua Vida, mostrando técnicas extremamente eficazes que levará você a ser uma Designer de Sucesso.</p>
+                    <p>O único risco que você corre é de estar aqui e se tornar uma Expert em Sobrancelhas e ter Sucesso. Simples assim!</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="https://go.hotmart.com/W100785462X?ap=e2be" class="cta-button" target="_blank"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta section">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-header">
+                    <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Logo_AA.png" alt="Logo">
+                </div>
+                <h3 class="offer-title">OFERTA POR TEMPO LIMITADO!</h3>
+                <div class="countdown">
+                    <!-- Countdown timer would go here -->
+                    <div style="background: #FFB400; padding: 10px; border-radius: 5px; display: inline-block; margin: 10px;">
+                        <span style="color: #000; font-weight: bold;">20:00</span>
+                    </div>
+                </div>
+                <p class="price-old">de R$ 397,00 Por Apenas</p>
+                <h2 class="final-price">
+                    <span style="font-size: 30px;">10x de</span><br>
+                    R$ 11,08
+                </h2>
+                <p class="price-cash">Ou apenas R$ 97,00 à vista</p>
+                <p class="final-description">Clique agora mesmo no botão abaixo e garanta sua vaga no curso.<br>Transforme sua carreira, conquiste o sucesso e seja reconhecida como uma especialista em design de sobrancelhas. Não deixe essa oportunidade passar!</p>
+                <a href="https://go.hotmart.com/W100785462X?ap=e2be" class="cta-button" target="_blank"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Testimonials -->
+    <section class="testimonial-images">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/08.webp" alt="Depoimento 5">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/05-.webp" alt="Depoimento 6">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/06.webp" alt="Depoimento 7">
+        <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/06/depoimento.jpeg" alt="Depoimento 8">
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section">
+        <div class="container">
+            <h2 class="faq-title">Perguntas Frequentes</h2>
+            <div class="divider">
+                <img src="https://sosobrancelhasperfeitas.com/wp-content/uploads/2023/04/Dividor.svg" alt="Divider">
+            </div>
+            
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Qual o formato do curso?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Você terá acesso a diversas vídeo aulas (passo a passo) + Bônus Especiais.
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Quais as formas de pagamento?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Você tem as opções de pagamento via cartões de crédito, boleto, PIX ou paypal.
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Ainda não recebi o curso, o que fazer?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Verifique as caixas de spam/lixo/outros de seu e-mail, pois o link de acesso pode ser redirecionado para alguma dessas pastas.
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Como vou receber o curso?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Assim que seu pedido for aprovado, o link de acesso ao curso será enviado ao seu e-mail, onde você terá acesso à sua área de membros do curso com login e senha pessoal.
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Tenho que pagar alguma mensalidade?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Não, esse valor é único. Sem qualquer taxa ou mensalidade adicional.
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <div class="faq-question">
+                    Por quanto tempo terei acesso ao curso?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Você terá acesso ao curso por 1 ano, podendo Acessar quantas vezes quiser nesse período, e caso não se sinta satisfeito com sua compra, você pode fazer o cancelamento em até 7 dias.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://sosobrancelhasperfeitas.com/politica-privacidade/">Política de Privacidade</a> | 
+                <a href="https://sosobrancelhasperfeitas.com/termos-de-uso/">Termos de uso</a>
+            </div>
+            <p class="footer-text">Copyright © 2023 - Curso Sobrancelhas Perfeitas ® 2023 - CNPJ sob o nº 41.985.083/0001-00 - Todos os Direitos Reservados.</p>
+            <p class="footer-disclaimer">Este Site Não Faz Parte Do Site Do Facebook Ou Do Facebook Inc. Além Disso, Este Site NÃO É Endossado Pelo Facebook De Nenhuma Maneira. FACEBOOK É Uma Marca Comercial Independente Da FACEBOOK, Inc. *Os Resultados Variam De Pessoa Para Pessoa, Seus Objetivos E Esforço.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5518981228446" class="whatsapp-btn" target="_blank">
+        📱
+    </a>
+
+    <script>
+        function toggleFaq(element) {
+            element.classList.toggle('active');
+            const icon = element.querySelector('.faq-question span');
+            if (element.classList.contains('active')) {
+                icon.textContent = '▲';
+            } else {
+                icon.textContent = '▼';
+            }
+        }
+
+        // Simple countdown timer (20 minutes)
+        function startCountdown() {
+            let timeLeft = 20 * 60; // 20 minutes in seconds
+            
+            function updateTimer() {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                
+                const countdownElement = document.querySelector('.countdown span');
+                if (countdownElement) {
+                    countdownElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }
+                
+                if (timeLeft > 0) {
+                    timeLeft--;
+                    setTimeout(updateTimer, 1000);
+                }
+            }
+            
+            updateTimer();
+        }
+
+        // Start countdown when page loads
+        window.addEventListener('load', startCountdown);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add hover effects to CTA buttons
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1)';
+            });
+            
+            button.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
+
